@@ -4,21 +4,23 @@ import nodemailer from 'nodemailer';
 import Logger from '../log/logger';
 
 export class notifyChannels {
-    static nodeMailerChannel = async (data: {
+
+    //Mail using Main function or channel.
+    static async mailUsingCred(data: {
         from: string;
         to: string;
         subject: string;
         text: string;
         html?: string;
-    }) => {
+    }) {
         try {
             Logger.info('Preparing to send email', [data]);
 
             const transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: 'your mail',
-                    pass: 'tapp pass', 
+                    user: 'sk6633675@gmail.com',
+                    pass: 'ytoy dmdz gdlg ehtd',
                 },
                 secure: true,
                 port: 465,
@@ -35,46 +37,56 @@ export class notifyChannels {
             Logger.info(`Message sent: ${info.messageId}`);
             Logger.info(`Preview URL: ${nodemailer.getTestMessageUrl(info)}`);
 
-            return 1;
-
+            return true;
         } catch (error: any) {
             Logger.error('Error sending email with primary method:', [error.message]);
+            return false;
+        }
+    }
 
-            try {
-                Logger.info('Attempting to send email using fallback method', [data]);
+    //Mail using Secound function or channel.
+    static async mailUsingTestAccount(data: {
+        from: string;
+        to: string;
+        subject: string;
+        text: string;
+        html?: string;
+    }) {
+        try {
+            Logger.info('Attempting to send email using fallback method', [data]);
 
-                 // Use a test account.
-                const testAccount = await nodemailer.createTestAccount();
+            // Use a test account.
+            const testAccount = await nodemailer.createTestAccount();
 
-                const transporter = nodemailer.createTransport({
-                    host: "smtp.ethereal.email",
-                    port: 587,
-                    secure: false,
-                    auth: {
+            const transporter = nodemailer.createTransport({
+                host: 'smtp.ethereal.email',
+                port: 587,
+                secure: false,
+                auth: {
                     user: testAccount.user,
                     pass: testAccount.pass,
-                    },
-                    tls: {
+                },
+                tls: {
                     rejectUnauthorized: false,
-                    },
-                });
-                const fallbackInfo = await transporter.sendMail({
-                    from: data.from,
-                    to: data.to,
-                    subject: data.subject,
-                    text: data.text,
-                    html: data.html,
-                });
+                },
+            });
 
-                Logger.info(`Fallback message sent: ${fallbackInfo.messageId}`);
-                Logger.info(`Fallback preview URL: ${nodemailer.getTestMessageUrl(fallbackInfo)}`);
+            const fallbackInfo = await transporter.sendMail({
+                from: data.from,
+                to: data.to,
+                subject: data.subject,
+                text: data.text,
+                html: data.html,
+            });
 
-                return 2;
+            Logger.info(`Fallback message sent: ${fallbackInfo.messageId}`);
+            Logger.info(`Fallback preview URL: ${nodemailer.getTestMessageUrl(fallbackInfo)}`);
 
-            } catch (fallbackError: any) {
-                Logger.error('Error sending email with fallback method:', [fallbackError.message]);
-                return 0;
-            }
+            return true;
+        } catch (fallbackError: any) {
+            Logger.error('Error sending email with fallback method:', [fallbackError.message]);
+            return false;
         }
     }
 }
+

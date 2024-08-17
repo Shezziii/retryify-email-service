@@ -14,7 +14,7 @@ export class notifyController {
 
             await sendNewEmail({ from, to, subject, text });
 
-            Logger.info('Email sent successfully', [request.body]);
+            Logger.info('Email added in queue successfully', [request.body]);
 
             return response.status(200).json({
                 code: 1,
@@ -22,7 +22,7 @@ export class notifyController {
             });
 
         } catch (error: any) {
-            Logger.error('Error sending email:', [error.message]);
+            Logger.error('Error while adding email in queue:', [error.message]);
 
             return response.status(500).json({
                 code: 0,

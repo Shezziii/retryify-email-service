@@ -23,20 +23,34 @@ const sendNewEmail = async (email: EmailType) => {
 
 // Process the email job
 const processEmailQueue = async (job: Job<EmailType>) => {
-    try {
-        const result = await notifyChannels.nodeMailerChannel(job.data);
+    const maxAttempts = 3; 
+    const retryDelay = 5000; 
 
-        if (result) {
-            const channelUsed = result === 1 ? 'main channel' : 'second channel';
-            Logger.info(`Email sent successfully using ${channelUsed}`, [job.data]);
-        } else {
-            Logger.warn('Failed to send email', [job.data]);
+    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+        try {
+            Logger.warn(`Attempt ${attempt}: `);
+            const result = await notifyChannels.mailUsingCred(job.data);
+            if (result) {
+                Logger.warn(`Attempt ${attempt}: Passed.`);
+                return result;
+            } else {
+                const fallbackResult = await notifyChannels.mailUsingTestAccount(job.data);
+                if (fallbackResult) {
+                    Logger.warn(`Attempt ${attempt}: Passed.`);
+                    return fallbackResult;
+                }
+            }
+            
+            Logger.warn(`Attempt ${attempt}: Failed.`);
+            if (attempt === maxAttempts) {
+                Logger.error('All attempts failed. Email could not be sent.');
+            }
+        } catch (error) {
+            Logger.error('Error occure while sending...');
         }
-        return result;
-    } catch (error) {
-        Logger.error('Error processing email', [error]);
-        throw error;
+        await new Promise(res => setTimeout(res, retryDelay)); 
     }
 };
+
 
 export { processEmailQueue, sendNewEmail, emailQueue };
