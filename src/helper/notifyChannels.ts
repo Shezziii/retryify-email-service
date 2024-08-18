@@ -19,8 +19,8 @@ export class notifyChannels {
             const transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: 'sk6633675@gmail.com',
-                    pass: 'ytoy dmdz gdlg ehtd',
+                    user: 'Your Email.',
+                    pass: 'Your Pass.',
                 },
                 secure: true,
                 port: 465,
