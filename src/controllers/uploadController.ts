@@ -14,7 +14,14 @@ static storage = multer.diskStorage({
         callback(null, path.join(__dirname, '../uploads'));
     },
     filename(req, file, callback) {
-        callback(null, `${Date.now()}_upload.jpg`);
+         // Use the original file name and extension
+        const ext = path.extname(file.originalname); 
+        const baseName = path.basename(file.originalname, ext);
+        const timestamp = Date.now(); 
+        Logger.info('File Data ...'+` name : ${baseName} time : ${timestamp} extension : ${ext}`);
+        const newFileName = `${baseName}_${timestamp}${ext}`;
+
+        callback(null, newFileName);
     },
 });
     static upload = multer({ storage: fileUploader.storage });
