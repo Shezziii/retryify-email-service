@@ -1,13 +1,10 @@
-// File for Queue..
-
 import Bull, { Job } from 'bull';
 import Logger from '../log/logger';
 import { notifyChannels } from '../helper/notifyChannels';
 
-// Define the email queue
-const emailQueue = new Bull('email');
+const sesEmailQueue = new Bull('ses_mail');
+const pinpointEmailQueue = new Bull('pinpoint_mail');
 
-// Email type definition
 type EmailType = {
     from: string;
     to: string;
@@ -15,42 +12,70 @@ type EmailType = {
     text: string;
 };
 
-// Add email job to the queue
+const queueOptions = {
+    attempts: 3,
+    backoff: 5000,
+};
+
+// Add email job to SES queue
 const sendNewEmail = async (email: EmailType) => {
-    await emailQueue.add(email);
+    await sesEmailQueue.add(email, queueOptions);
     return true;
 };
 
-// Process the email job
-const processEmailQueue = async (job: Job<EmailType>) => {
-    const maxAttempts = 3; 
-    const retryDelay = 5000; 
+// Add email job to Pinpoint queue
+const sendEmailToPinpoint = async (email: EmailType) => {
+    await pinpointEmailQueue.add(email, queueOptions);
+    return true;
+};
 
-    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-        try {
-            Logger.warn(`Attempt ${attempt}: `);
-            const result = await notifyChannels.mailUsingCred(job.data);
-            if (result) {
-                Logger.warn(`Attempt ${attempt}: Passed.`);
-                return result;
-            } else {
-                const fallbackResult = await notifyChannels.mailUsingTestAccount(job.data);
-                if (fallbackResult) {
-                    Logger.warn(`Attempt ${attempt}: Passed.`);
-                    return fallbackResult;
-                }
-            }
-            
-            Logger.warn(`Attempt ${attempt}: Failed.`);
-            if (attempt === maxAttempts) {
-                Logger.error('All attempts failed. Email could not be sent.');
-            }
-        } catch (error) {
-            Logger.error('Error occure while sending...');
+// Process SES email jobs
+const processSesEmailQueue = async (job: Job<EmailType>) => {
+    try {
+        Logger.warn(`Attempt ${job.attemptsMade}: Sending email via SES.`);
+        const result = await notifyChannels.mailUsingCred(job.data);
+
+        if (result) {
+            Logger.info(`Email sent successfully via SES on attempt ${job.attemptsMade}.`);
+            return result;
+        } else {
+            throw new Error('Failed to send email via SES.');
         }
-        await new Promise(res => setTimeout(res, retryDelay)); 
+
+    } catch (error) {
+        Logger.error(`Error during SES email attempt ${job.attemptsMade}: `);
+
+        if (job.attemptsMade >= 2) {
+            Logger.warn(`Max attempts reached for SES. Switching to Pinpoint.`);
+            await sendEmailToPinpoint(job.data);
+        }
+
+        throw error;
     }
 };
 
+// Process Pinpoint email jobs
+const processPinpointEmailQueue = async (job: Job<EmailType>) => {
+    try {
+        Logger.warn(`Attempt ${job.attemptsMade}: Sending email via Pinpoint.`);
+        const result = await notifyChannels.mailUsingTestAccount(job.data);
 
-export { processEmailQueue, sendNewEmail, emailQueue };
+        if (result) {
+            Logger.info(`Email sent successfully via Pinpoint on attempt ${job.attemptsMade}.`);
+            return result;
+        } else {
+            throw new Error('Failed to send email via Pinpoint.');
+        }
+
+    } catch (error) {
+        Logger.error(`Error during Pinpoint email attempt ${job.attemptsMade}: `);
+
+        if (job.attemptsMade >= 3) {
+            Logger.warn(`Max attempts reached for Pinpoint. All channels failed.`);
+        }
+
+        throw error;
+    }
+};
+
+export { processSesEmailQueue, sendNewEmail, sesEmailQueue, pinpointEmailQueue, processPinpointEmailQueue };

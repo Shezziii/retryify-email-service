@@ -35,11 +35,11 @@ export class notifyChannels {
             });
 
             Logger.info(`Message sent: ${info.messageId}`);
-            Logger.info(`Preview URL: ${nodemailer.getTestMessageUrl(info)}`);
+            // Logger.info(`Preview URL: ${nodemailer.getTestMessageUrl(info)}`);
 
             return true;
         } catch (error: any) {
-            Logger.error('Error sending email with primary method:', [error.message]);
+            
             return false;
         }
     }
@@ -84,8 +84,7 @@ export class notifyChannels {
 
             return true;
         } catch (fallbackError: any) {
-            Logger.error('Error sending email with fallback method:', [fallbackError.message]);
-            return false;
+           return false;
         }
     }
 }

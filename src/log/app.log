@@ -1,0 +1,243 @@
+{"level":30,"time":1723903601251,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1723903601259,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1723903601268,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: "}
+{"level":30,"time":1723903601269,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1723903603342,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":30,"time":1723903603343,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempting to send email using fallback method"}
+{"level":50,"time":1723903605657,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Error sending email with fallback method:"}
+{"level":40,"time":1723903605657,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Failed."}
+{"level":40,"time":1723903610658,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: "}
+{"level":30,"time":1723903610658,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1723903611802,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":30,"time":1723903611802,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempting to send email using fallback method"}
+{"level":50,"time":1723903613241,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Error sending email with fallback method:"}
+{"level":40,"time":1723903613241,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Failed."}
+{"level":40,"time":1723903618244,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempt 3: "}
+{"level":30,"time":1723903618244,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1723903619319,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":30,"time":1723903619320,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempting to send email using fallback method"}
+{"level":50,"time":1723903620813,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Error sending email with fallback method:"}
+{"level":40,"time":1723903620813,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempt 3: Failed."}
+{"level":50,"time":1723903620813,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"All attempts failed. Email could not be sent."}
+{"level":30,"time":1723903647067,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1723903647069,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1723903647070,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: "}
+{"level":30,"time":1723903647070,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":30,"time":1723903650711,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Message sent: <88c0cb4d-0fad-3992-01f0-707f59101620@localhost>"}
+{"level":40,"time":1723903650711,"pid":116311,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Passed."}
+{"level":30,"time":1723903690825,"pid":119303,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1723903697341,"pid":119303,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1723903697354,"pid":119303,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1723903697366,"pid":119303,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: "}
+{"level":30,"time":1723903697367,"pid":119303,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1723903699423,"pid":119303,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":30,"time":1723903699423,"pid":119303,"hostname":"shezi-Latitude-7420","msg":"Attempting to send email using fallback method"}
+{"level":30,"time":1723903707648,"pid":119303,"hostname":"shezi-Latitude-7420","msg":"Fallback message sent: <985f9865-bbcd-bff3-7c8f-47d15dcbf333@localhost>"}
+{"level":30,"time":1723903707650,"pid":119303,"hostname":"shezi-Latitude-7420","msg":"Fallback preview URL: https://ethereal.email/message/ZsCu2bz.uA-zUG5EZsCu2zT0NNnZz6cOAAAAAeFstprJUoXIYQyPMfZZKGw"}
+{"level":40,"time":1723903707651,"pid":119303,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Passed."}
+{"level":30,"time":1723903736928,"pid":120036,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1723903737883,"pid":120036,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1723903737895,"pid":120036,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1723903737910,"pid":120036,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: "}
+{"level":30,"time":1723903737911,"pid":120036,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":30,"time":1723903740826,"pid":120036,"hostname":"shezi-Latitude-7420","msg":"Message sent: <b118508c-cead-12d3-0f75-16c5aa7075b9@localhost>"}
+{"level":40,"time":1723903740826,"pid":120036,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Passed."}
+{"level":30,"time":1725631223484,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725631228526,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725631228533,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725631228542,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: "}
+{"level":30,"time":1725631228542,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725631230055,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":30,"time":1725631230055,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Attempting to send email using fallback method"}
+{"level":30,"time":1725631237958,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Fallback message sent: <429616db-af9a-1adf-6e22-11429773d215@localhost>"}
+{"level":30,"time":1725631237959,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Fallback preview URL: https://ethereal.email/message/ZtsLAqACXKFYK0XUZtsLBTT0NNnZ5igkAAAAAeq8b4p7cYKVbStpFTA-ksI"}
+{"level":40,"time":1725631237959,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Passed."}
+{"level":30,"time":1725632045176,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725632045182,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725632045190,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: "}
+{"level":30,"time":1725632045190,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725632046580,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":30,"time":1725632046580,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Attempting to send email using fallback method"}
+{"level":30,"time":1725632048800,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Fallback message sent: <14e6f1f2-3a6f-13c3-38c5-be36d1724a16@localhost>"}
+{"level":30,"time":1725632048800,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Fallback preview URL: https://ethereal.email/message/ZtsLAqACXKFYK0XUZtsOMDT0NNnZ5jvRAAAAAsLDEREUWQwrHPciFYNTwmU"}
+{"level":40,"time":1725632048801,"pid":222929,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Passed."}
+{"level":30,"time":1725717636480,"pid":21576,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725717640257,"pid":21576,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725717640263,"pid":21576,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725717640273,"pid":21576,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: "}
+{"level":30,"time":1725717640273,"pid":21576,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725717641730,"pid":21576,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":30,"time":1725717832682,"pid":23235,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725717836632,"pid":23235,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725717836636,"pid":23235,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725717836643,"pid":23235,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: "}
+{"level":30,"time":1725717836643,"pid":23235,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725717838461,"pid":23235,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":30,"time":1725717935182,"pid":24124,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725717943472,"pid":24329,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725717946672,"pid":24329,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725717946682,"pid":24329,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725717946693,"pid":24329,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: "}
+{"level":30,"time":1725717946694,"pid":24329,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725717947758,"pid":24329,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":30,"time":1725718066644,"pid":25446,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725718067467,"pid":25446,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725718067472,"pid":25446,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725718067478,"pid":25446,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Processing email."}
+{"level":30,"time":1725718067479,"pid":25446,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718069608,"pid":25446,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":40,"time":1725718069609,"pid":25446,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Failed to send email."}
+{"level":30,"time":1725718170318,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725718171447,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725718171460,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725718171465,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Processing email."}
+{"level":30,"time":1725718171465,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718173338,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":40,"time":1725718173338,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Failed to send email."}
+{"level":50,"time":1725718173338,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Error on job 5 (Attempt 0)"}
+{"level":40,"time":1725718173398,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Processing email."}
+{"level":30,"time":1725718173398,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718175236,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":40,"time":1725718175236,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Failed to send email."}
+{"level":50,"time":1725718175236,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Error on job 5 (Attempt 1)"}
+{"level":40,"time":1725718175290,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Processing email."}
+{"level":30,"time":1725718175290,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718177193,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":40,"time":1725718177193,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Failed to send email."}
+{"level":50,"time":1725718177193,"pid":26515,"hostname":"shezi-Latitude-7420","msg":"Error on job 5 (Attempt 2)"}
+{"level":30,"time":1725718239909,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725718240141,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725718240148,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725718240155,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Processing email."}
+{"level":30,"time":1725718240156,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718242018,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":40,"time":1725718242018,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Failed to send email."}
+{"level":50,"time":1725718242019,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Error on job 6 (Attempt 0)"}
+{"level":40,"time":1725718242077,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Processing email."}
+{"level":30,"time":1725718242077,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718243316,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":40,"time":1725718243316,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Failed to send email."}
+{"level":50,"time":1725718243316,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Error on job 6 (Attempt 1)"}
+{"level":40,"time":1725718243371,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Processing email."}
+{"level":30,"time":1725718243371,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718244446,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":40,"time":1725718244446,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Failed to send email."}
+{"level":50,"time":1725718244446,"pid":27228,"hostname":"shezi-Latitude-7420","msg":"Error on job 6 (Attempt 2)"}
+{"level":30,"time":1725718441172,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725718444139,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725718444145,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725718444152,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Sending email via SES."}
+{"level":30,"time":1725718444152,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718445479,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":50,"time":1725718445479,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 0: "}
+{"level":40,"time":1725718450489,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Sending email via SES."}
+{"level":30,"time":1725718450489,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718451491,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":50,"time":1725718451491,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 1: "}
+{"level":40,"time":1725718456495,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Sending email via SES."}
+{"level":30,"time":1725718456495,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718457560,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":50,"time":1725718457560,"pid":28916,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 2: "}
+{"level":30,"time":1725718487299,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725718490373,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725718490382,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725718490389,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Sending email via SES."}
+{"level":30,"time":1725718490389,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718491495,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":50,"time":1725718491495,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 0: "}
+{"level":40,"time":1725718496505,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Sending email via SES."}
+{"level":30,"time":1725718496505,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718497816,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":50,"time":1725718497816,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 1: "}
+{"level":40,"time":1725718502820,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Sending email via SES."}
+{"level":30,"time":1725718502821,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718504619,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Error sending email with primary method:"}
+{"level":50,"time":1725718504619,"pid":29615,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 2: "}
+{"level":30,"time":1725718585318,"pid":30566,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725718589476,"pid":30698,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725718602021,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725718658725,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725718658730,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725718658736,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Sending email via SES."}
+{"level":30,"time":1725718658736,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718660587,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 0: "}
+{"level":40,"time":1725718665601,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Sending email via SES."}
+{"level":30,"time":1725718665601,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718667451,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 1: "}
+{"level":40,"time":1725718672455,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Sending email via SES."}
+{"level":30,"time":1725718672455,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725718674559,"pid":30960,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 2: "}
+{"level":30,"time":1725719008636,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719012513,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725719012521,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725719012527,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Sending email via SES."}
+{"level":30,"time":1725719012528,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725719013785,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 0: "}
+{"level":40,"time":1725719018797,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Sending email via SES."}
+{"level":30,"time":1725719018797,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725719020235,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 1: "}
+{"level":40,"time":1725719025240,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Sending email via SES."}
+{"level":30,"time":1725719025240,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725719027198,"pid":34474,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 2: "}
+{"level":30,"time":1725719076333,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719078010,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725719078017,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725719078025,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Sending email via SES."}
+{"level":30,"time":1725719078025,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725719079844,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 0: "}
+{"level":40,"time":1725719084856,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Sending email via SES."}
+{"level":30,"time":1725719084856,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725719087283,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 1: "}
+{"level":40,"time":1725719092287,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Sending email via SES."}
+{"level":30,"time":1725719092287,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725719094270,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 2: "}
+{"level":40,"time":1725719094270,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Max attempts reached for SES. Switching to Pinpoint."}
+{"level":40,"time":1725719094275,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Sending email via Pinpoint."}
+{"level":30,"time":1725719094275,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Attempting to send email using fallback method"}
+{"level":30,"time":1725719102000,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Fallback message sent: <19895a40-34f9-cc8c-5e9f-dcc1100a9c0e@localhost>"}
+{"level":30,"time":1725719102000,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Fallback preview URL: https://ethereal.email/message/ZtxiO6ACXKFYpzPxZtxiPbEfOOXRL0vfAAAAARfQTnlVAHVBbJaXW5aEDjI"}
+{"level":30,"time":1725719102000,"pid":35250,"hostname":"shezi-Latitude-7420","msg":"Email sent successfully via Pinpoint on attempt 0."}
+{"level":30,"time":1725719159452,"pid":36230,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719196421,"pid":36603,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719205672,"pid":36816,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719234502,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719327931,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}
+{"level":30,"time":1725719327940,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Email added in queue successfully"}
+{"level":40,"time":1725719327947,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Sending email via SES."}
+{"level":30,"time":1725719327947,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725719329120,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 0: "}
+{"level":40,"time":1725719334133,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Attempt 1: Sending email via SES."}
+{"level":30,"time":1725719334133,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725719335115,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 1: "}
+{"level":40,"time":1725719340119,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Attempt 2: Sending email via SES."}
+{"level":30,"time":1725719340119,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Preparing to send email"}
+{"level":50,"time":1725719341343,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Error during SES email attempt 2: "}
+{"level":40,"time":1725719341344,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Max attempts reached for SES. Switching to Pinpoint."}
+{"level":40,"time":1725719341348,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Attempt 0: Sending email via Pinpoint."}
+{"level":30,"time":1725719341348,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Attempting to send email using fallback method"}
+{"level":30,"time":1725719344748,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Fallback message sent: <ae5f33a5-f9de-1473-6604-5efa7e7cbf30@localhost>"}
+{"level":30,"time":1725719344749,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Fallback preview URL: https://ethereal.email/message/ZtxjLaACXKFYp0EdZtxjMMGk0kDvW1xjAAAAAVNwo66qdBmyjPKthLybFbM"}
+{"level":30,"time":1725719344749,"pid":37255,"hostname":"shezi-Latitude-7420","msg":"Email sent successfully via Pinpoint on attempt 0."}
+{"level":30,"time":1725719466520,"pid":39275,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719490676,"pid":39592,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719512413,"pid":39928,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719528413,"pid":40166,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719540816,"pid":40392,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719674699,"pid":41516,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719773652,"pid":42567,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719885451,"pid":43440,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719906869,"pid":43722,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719917142,"pid":43930,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725719969997,"pid":44483,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720009311,"pid":44888,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720037038,"pid":45206,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720043356,"pid":45369,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720180794,"pid":46732,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720266698,"pid":47604,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720393432,"pid":48642,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720510451,"pid":49678,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720560740,"pid":50264,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720612230,"pid":50762,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720637111,"pid":51081,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720711182,"pid":51702,"hostname":"shezi-Latitude-7420","msg":"Server running on http://localhost:8000"}
+{"level":30,"time":1725720713056,"pid":51702,"hostname":"shezi-Latitude-7420","msg":"Controller Calling.."}

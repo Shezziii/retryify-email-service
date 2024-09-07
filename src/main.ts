@@ -4,7 +4,7 @@
 import express from "express";
 import Logger from "./log/logger";
 import router from "./router/router";
-import { emailQueue , processEmailQueue } from "./queue/notifyQueue";
+import { sesEmailQueue , processSesEmailQueue, pinpointEmailQueue, processPinpointEmailQueue } from "./queue/notifyQueue";
 
 
 
@@ -15,7 +15,10 @@ app.use(express.json());
 
 app.use("/api/",router);
 
-emailQueue.process(processEmailQueue);
+sesEmailQueue.process(processSesEmailQueue);
+
+pinpointEmailQueue.process(processPinpointEmailQueue);
+
 
 app.listen("8000",()=>{
 
